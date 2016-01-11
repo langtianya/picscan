@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6154.17" systemVersion="14A299l" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.11"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomIndexTableViewCell"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" ambiguous="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CustomIndexTableCell" rowHeight="251" id="KGk-i7-Jjw" customClass="CustomIndexTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="251"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="维富帅" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1CG-sS-5Wv">
+                        <rect key="frame" x="56" y="2" width="172" height="35"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textView appearanceType="aqua" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="快来若xxxxxx" translatesAutoresizingMaskIntoConstraints="NO" id="Vc8-dG-38V">
+                        <rect key="frame" x="3" y="66" width="302" height="53"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <imageView appearanceType="aqua" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="login_backgroup2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nam-fM-bod" customClass="ClickImage">
+                        <rect key="frame" x="10" y="121" width="120" height="93"/>
+                    </imageView>
+                    <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rgD-RT-kDB">
+                        <rect key="frame" x="10" y="222" width="54" height="30"/>
+                        <state key="normal" title="前往">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="gotoThat:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="opK-xL-w1d"/>
+                        </connections>
+                    </button>
+                    <imageView appearanceType="aqua" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="login_backgroup.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="hd7-1A-qmD" customClass="ClickImage">
+                        <rect key="frame" x="153" y="123" width="117" height="93"/>
+                    </imageView>
+                    <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f6W-jx-Lmb">
+                        <rect key="frame" x="275" y="222" width="30" height="30"/>
+                        <state key="normal" title="评论">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="comment:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Hf4-m0-kOG"/>
+                        </connections>
+                    </button>
+                    <imageView appearanceType="aqua" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5zhuanLeave.png" translatesAutoresizingMaskIntoConstraints="NO" id="bMV-oS-Uwu">
+                        <rect key="frame" x="3" y="44" width="45" height="14"/>
+                    </imageView>
+                    <imageView appearanceType="aqua" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wfsIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="YSD-7K-To6">
+                        <rect key="frame" x="3" y="2" width="45" height="34"/>
+                    </imageView>
+                    <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HCS-4K-EAf">
+                        <rect key="frame" x="139" y="222" width="30" height="30"/>
+                        <state key="normal" title="赞同">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="agree:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ymX-hF-vUT"/>
+                        </connections>
+                    </button>
+                    <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="你好xxxxx" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8db-uR-8EL">
+                        <rect key="frame" x="56" y="35" width="160" height="32"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cellView" destination="H2p-sc-9uM" id="REw-iQ-OaP"/>
+                <outlet property="headIcon" destination="YSD-7K-To6" id="sXw-lc-bgu"/>
+                <outlet property="messageImage1" destination="nam-fM-bod" id="QjR-zN-dRE"/>
+                <outlet property="messageText" destination="Vc8-dG-38V" id="Osb-vc-Zi3"/>
+                <outlet property="userCreditRank" destination="bMV-oS-Uwu" id="mHH-aM-zHJ"/>
+                <outlet property="userStatus" destination="8db-uR-8EL" id="E1E-2e-Ycf"/>
+                <outlet property="usernameLable" destination="1CG-sS-5Wv" id="bgy-Kx-34d"/>
+            </connections>
+            <point key="canvasLocation" x="48" y="135.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="5zhuanLeave.png" width="69" height="18"/>
+        <image name="login_backgroup.jpeg" width="607" height="1136"/>
+        <image name="login_backgroup2.jpg" width="640" height="960"/>
+        <image name="wfsIcon.png" width="99" height="99"/>
+    </resources>
+</document>
